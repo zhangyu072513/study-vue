@@ -1,0 +1,88 @@
+/*清空样式*/
+body,div,p,h1,h2,h3,h4,h5,table,td,ul,ol,li,dt,dl,dd,a{margin:0; padding:0;font-family: "Microsoft YaHei";}
+ul,ol,li,dt,dl,dd{ list-style:none;font-weight:normal;}
+u,b,s,i{text-decoration:none;font-style: normal;}
+a{text-decoration:none;outline: none;}
+a:link{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:visited {text-decoration:none;}
+.white{color:#fff;}
+.row{margin-right:0;}
+.left{float: left;}
+.right{float: right;}
+
+body a:hover, body a:focus, body a:active, body a:visited {
+    outline: 0;
+    text-decoration: none;
+}
+
+/**/
+.fa-1:before {content: "\f0f1";}
+.fa-2:before {content: "\f0cb";}
+.fa-3:before {content: "\f022";}
+.fa-4:before {content: "\f085";}
+
+/* 修改滚动条样式 */
+.scroll-1::-webkit-scrollbar {
+    width:6px;
+    height:6px;
+}
+.scroll-1::-webkit-scrollbar-button    {
+    background-color:#eee;
+}
+.scroll-1::-webkit-scrollbar-track     {
+    background:#eee;
+}
+.scroll-1::-webkit-scrollbar-thumb{
+    background:#aaa;
+    border-radius:4px;
+}
+.scroll-1::-webkit-scrollbar-corner {
+    background:#82AFFF;
+}
+.scroll-1::-webkit-scrollbar-resizer  {
+    background:#FF0BEE;
+}
+
+/* 公共模板样式 */
+
+
+/* 首页样式 */
+.ul-box{background-color:#fff;}
+.ul-box li:first-child span i.fa{display: none;}
+.ul-box li{float: left;width:20%;height:66px;color:#6f6f6f; padding:10px;box-sizing: border-box;position: relative;background-color:#fff;border-bottom:1px solid #e6e6e1;border-right:1px solid #e6e6e1;}
+.ul-box li span{display:block;}
+.ul-box li span i{margin-left:3px;}
+.ul-box li b{font-size:19px;font-weight:700;color:#333;}
+.ul-box li:hover{cursor: pointer;box-shadow: 5px 5px 15px #f2f2f2, -5px -5px 15px #f2f2f2;z-index: 10;color: #fa8f23;}
+.ul-box li:hover b{color:#fa8f23;}
+
+.plan{background-color:#fff;margin-top:15px;}
+.plan-top{font-size:16px;padding-top:5px;}
+.plan-top p .a-1{display: inline-block;color:#fe8405;padding:20px;border-bottom:2px solid #fe8405;cursor: pointer;}
+.plan-top p{border-bottom:1px solid #e6e6e1;}
+.plan-top p span{display: inline-block;margin-left:15px;font-size:14px;}
+.plan-top p button{color:#fff;background-color:#fe8405;border:none;padding:5px 15px;border-radius:3px;margin-right: 15px;}
+.plan-top p button i{margin-right:5px;}
+.p-1{padding:10px 0;}
+.plan-table {}
+.plan-table tr:hover td{background-color:#faf3eb; }
+.plan-table tr{cursor: pointer;}
+/* .plan-table tr th,.plan-table tr td{} */
+/* #index-plan tr td:nth-child(2),#index-plan tr td:nth-child(4),#index-plan tr td:nth-child(5),#index-plan tr td:nth-child(6){color: #0062e1;} */
+.td-blue,.td-blue a{color: #0062e1;}
+.td-status{ color: #84aa00 !important;}
+.plan-table table>tbody>tr>td,.plan-table table>thead>tr>th{padding:0;height:50px;vertical-align:middle;padding-left:8px;}
+.plan-table table>thead>tr>th{color:#7c7c7c;background-color:#f6f6f6}
+
+.main-content > div >h3{font-size:24px;line-height: 24px;color:#42403c;padding-left:15px;padding-top:45px;}
+
+/* 推广宝贝样式 */
+.deer td{color:#42403c;font-size:13px;height:88px !important;}
+.deer .td-name-1{width: 220px;position: relative;}
+.deer .td-name-1 a{color: #0062e1};
+/* .deer td.td-status{color:#fa8f23} */
+.el-menu{
+    background-color:#333744 !important;
+}
+/* .content-container{padding: 0 !important;} */
